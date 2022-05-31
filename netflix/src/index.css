@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Outfit:wght@100;300;400;500;600;700;800&family=Rouge+Script&display=swap');
+
+body {
+  background-color: #000000;
+  font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
