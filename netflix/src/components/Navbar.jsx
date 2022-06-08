@@ -20,13 +20,13 @@ const Navbar = () => {
         <Link to='/'>
           <h1 className='text-red-600 text-4xl font-bold cursor-pointer'>NETFLIX</h1>
         </Link>
-        {user?.email ? 
+        {user?.email ?
         <div>
         <Link to='/account'>
           <button className='text-white pr-4'>Account</button>
         </Link>
         <button onClick={handleLogout} className='bg-red-600 px-6 py-4 rounded cursor-pointer text-white'>Logout</button>
-        </div> : 
+        </div> :
         <div>
         <Link to='/login'>
           <button className='text-white pr-4'>Sign In</button>
